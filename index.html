@@ -1,64 +1,127 @@
 <!DOCTYPE html>
 <html lang="en-us">
-    <head>
-        <!-- Required meta tags -->
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-        <!-- Bootstrap CSS -->
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-        <!-- Local CSS -->
-        <!-- <link rel="stylesheet" type="text/css" href="css/reset.css"> -->
-        <link rel="stylesheet" type="text/css" href="css/homesmarts.css">
+  <head>
+    <!-- start with meta data -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-        <title>HomeSmarts &#x2f; M3 Consulting</title>
-    </head>
-    <body>
-        <!-- Site Header -->
-        <header>
-            <!-- Section for logos -->
-            <section class="logo">
-                <img src="images/HSLogo.gif" alt="HomeSmarts Logo" />
-                <img src="images/ConsultLogo2.gif" alt="M3 Consulting Logo" />
-            </section>
-            <h1>&#9883; HomeSmarts &#x2f; M3 Consulting &#9883;</h1>
-        </header>
+    <!-- css files -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="css/homesmarts.css">
 
-        <!-- main section: Services Offered -->
-        <section class="main">
+    <!-- page title appears in browset tab -->
+    <title>HomeSmarts &#x2f; M3 Consulting</title>
+  </head>
 
-            <!-- h2: Tier-2 Headline -->
-            <h2>Services offered</h2>
+  <body class="home-page">
 
-            <!-- Unordered list -->
-            <ul>
-                <li>Computer network and WiFi needs for your small business or home office</li>
-                <li>Ergonomic User Interface Design Consulting</li>
-                <li>Video survailence system design consulting</li>
-                <li>Automation and Control System Design and Programming</li>
-                <li>Audio/Video systems and AV over IP Design</li>
-                <li>WebSite Design/Build</li>
-                <li>Home Theater Design</li>
-            </ul>
+    <!-- Site Header -->
+    <header>
+      <!-- Section for logos -->
+      <section class="logo">
+        <img src="images/HSLogo.gif" alt="HomeSmarts Logo" />
+        <img src="images/ConsultLogo2.gif" alt="M3 Consulting Logo" />
+      </section>
+      <!-- <h1>&#9883; HomeSmarts &#x2f; M3 Consulting &#9883;</h1> -->
+    </header>
 
+    <!-- Navigation bar -->
+    <!-- <nav class="navbar">
+      <div class="nav-center"> -->
+        <!-- links -->
+        <!-- <ul class="nav links">
+          <li class="nav-item"><a href="index.html">home</a></li>
+          <li class="nav-item"><a href="about-me.html">about</a></li>
+          <li class="nav-item"><a href="projects.html">projects</a></li>
+          <li class="nav-item"><a href="contact.html">contact</a></li>
+        </ul>
+      </div>
+    </nav> -->
+
+    <div class="container">
+      <nav class="navbar navbar-expand-sm navbar-light" style="background-color: #fff">
+        <a class="navbar-brand mb-0 h1">Navagation Menu:</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about-me.html">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="projects.html">Projects</a>
+            </li>
+            <!-- <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Dropdown
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#">Action</a>
+                <a class="dropdown-item" href="#">Another action</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Something else here</a>
+              </div>
+            </li> -->
+            <li class="nav-item">
+              <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+            </li>
+          </ul>
+        </div>        
+      </nav>
+    </div>
+
+    <!-- main section: Services Offered -->
+    <section class="container">
+      <div class="row">
+
+        <!-- h2: Tier-2 Headline -->
+        <div class="col-12">
+          <h2>Services offered</h2>
+          <hr>
+        </div>
+      </div>
+      <div class="row">
+        <!-- Unordered list -->
+        <ul class="col-12">
+          <li>Computer network and WiFi needs for your small business or home office</li>
+          <li>Ergonomic User Interface Design Consulting</li>
+          <li>Video survailence system design consulting</li>
+          <li>Automation and Control System Design and Programming</li>
+          <li>Audio/Video systems and AV over IP Design</li>
+          <li>WebSite Design/Build</li>
+          <li>Home Theater Design</li>
+        </ul>
+      </div>
+    </section>
+
+
+    <div class="container">
+      <footer>
+        <!-- footer: Contact Info -->
+        <section class="contact">
+          <div class="row">
+            <div class="col-12">
+              <!-- h2: Tier-2 Headline -->
+              <h2>Contact Info</h2>
+
+              <!-- Unordered list -->
+              <ul>
+                <li><strong>Email:</strong> <a href="#">michael.mccosh@gmail.com</a></li>
+                <li><strong>Email:</strong> <a href="#">m3consulting@homesmarts.biz</a></li>
+                <li><strong>Phone: 603.801.2853</strong></li>
+              </ul>
+            </div>
+          </div>
         </section>
-            
+      </footer>
+    </div>
 
-        <footer>
-            <!-- footer: Contact Info -->
-            <section class="contact">
-                <!-- h2: Tier-2 Headline -->
-                <h2>Contact Info</h2>
+  </body>
 
-                <!-- Unordered list -->
-                <ul>
-                    <li><strong>Email:</strong> <a href="#">macks.aperture@gmail.com</a></li>
-                    <li><strong>Email:</strong> <a href="#">m3consulting@homesmarts.biz</a></li>
-                    <li><strong>Phone: 603.801.2853</strong></li>
-                </ul>
-
-            </section>
-
-        </footer>
-   </body>
 </html>

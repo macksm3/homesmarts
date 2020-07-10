@@ -1,17 +1,19 @@
 /**
  HomeSmarts CSS Stylesheet
+ revision 2 styling 
  **/
 
- * {
+ *, ::after, ::before {
+  margin: 0;
+  padding: 0;
   box-sizing: border-box;
-  text-align: center;
 }
 
-body {
-  padding: 20px;
+.home-page {
   margin: 0;
   font-family: Georgia, "Times New Roman", Times, serif;
   font-size: 18px;
+  /* text-align: center; */
   /* line-height: 200%; */
   color: #333;
   /* background: #99abad; */
@@ -47,8 +49,10 @@ h2 {
   color: rgb(25, 10, 240);
 }
 
-a {
-  color: #d21034;
+hr {
+  border-style: solid;
+  border-width: 2px;
+  border-color: rgb(23, 63, 66);
 }
 
 /* img {
@@ -56,6 +60,9 @@ a {
   margin-right: auto;
 } */
 
+.logo {
+  padding: 20px;
+}
 .logo, .contact ul {
   /* display: block;   */
   margin: auto;
@@ -67,30 +74,112 @@ a {
   /* align-items: stretch; */
   /* position: fixed; */
 }
-
-
-.main {
-  /* width: 60%; */
-  margin-bottom: 20px;
+.logo img {
+  height: 150px;
 }
-.main li {
+
+.container, .main {
+  /* Box-model */
+  width: 1024px;
+  /* Positioning */
+  padding: 40px auto;
+  margin-top: 40px;
+  background: #fff;
+  overflow: hidden;
+  text-decoration: none;
+}
+
+.container li {
   padding:10px;
 }
-.main h2 {
+.container h2 {
   margin-top: 20px;
   font-size: 32px;
   
 }
 
+/* footer */
+.contact {
+  /* width: 1024px; */
+  /* padding: 40px auto; */
+  /* margin: 40px; */
+  /* margin-top: 40px; */
+  background: #fff;
+}
+.contact h2 {
+  /* justify-content: center; */
+  text-align: center;
+}
+.contact a {
+  color: #d21034;
+}
 .contact li {
   /* padding: 20px; */
   margin-top: 5px;
   margin-left: 20px;
   /* width: 100%; */
 }
+/* footer {
+  padding-left: 40px;
+  background-color: #f1efca;
+} */
 
-footer {
-  padding: 5px;
-  /* background-color: #f1efca; */
+
+/* about me page  */
+.about-me {
+  background-image: url("m3-graywall1.bmp");
+  background-repeat: repeat;
 }
+.bio-image {
+  width: 200px;
+  height: 265px;
+  margin-right: 20px;
+  float: left;
+}
+
+/* projects page */
+.projects-page {
+  background-image: url("./flag-us-tiling-background.jpg");
+  background-repeat: repeat;
+}
+.animation {
+  text-align: center;
+  font-size: 70px;
+}
+.projects img{
+  margin: 20px auto;
+  max-width: 500px;
+}
+
+/*
+=============== 
+Navbar
+===============
+*/
+/* .links a {
+  /* font-size: 1rem; */
+/*  text-transform: capitalize;
+  display: block;
+  padding: 0.5rem 1rem;
+}
+.links a:hover {
+  padding-left: 1.5rem;
+}
+.links {
+  /* height: 10rem; */
+/*  overflow: hidden;
+ }
+.show-links {
+  height: 10rem;
+}
+
+.nav-center {
+  /* max-width: 1170px; */
+/*  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #fff;
+  padding: 1rem;
+} */
 
