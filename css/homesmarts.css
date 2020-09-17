@@ -88,7 +88,9 @@ hr {
   overflow: hidden;
   text-decoration: none;
 }
-
+.service {
+  background: rgba(255, 255, 255, .5);
+}
 .container li {
   padding:10px;
 }
