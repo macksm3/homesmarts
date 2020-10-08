@@ -148,9 +148,19 @@ hr {
   text-align: center;
   font-size: 70px;
 }
-.projects img{
-  margin: 20px auto;
-  width: 100%;
+.gallery {
+  margin: 20px 50px;
+  /* margin: 20px; */
+}
+.galery img{
+  transition: 1s;
+  /* margin-top: 50px; */
+  padding: 25px;
+  width: 200px;
+}
+.gallery img:hover {
+  filter: grayscale(100%);
+  transform: scale(1.1);
 }
 
 /*
